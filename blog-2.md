@@ -32,7 +32,7 @@ function fetchData(): Promise<string> {
 // Using async/await to handle the promise
 async function getData() {
   console.log("Fetching data...");
-  const data = await fetchData(); // Pauses until fetchData finishes
+  const data = await fetchData(); 
   console.log(data);
 }
 
