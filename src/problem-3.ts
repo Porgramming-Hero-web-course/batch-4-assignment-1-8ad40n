@@ -8,7 +8,6 @@ const countWordOccurrences = (str : string , keyword : string) : number  => {
     for (let i = 0; i <= str.length; i++) {
         if (str.slice(i, i + keyword.length) === keyword) {
             totalCount++;
-            i += keyword.length - 1;
         }
     }
     return totalCount;
